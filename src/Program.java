@@ -14,7 +14,7 @@ public class Program{
             sum = sum + nums[i];
 
         }
-        int a=  sum / nums.length; // надо не приводить к целому ntcn
+        int a=  sum / nums.length; // надо не приводить к целому ntcnjj
         System.out.printf("Сумма: %d Среднее: %d \n", sum,a);
     }
 }
