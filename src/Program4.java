@@ -14,7 +14,7 @@ public class Program4 {
        //   nums2[i-1] = 1 / (float)i;
             System.out.printf("1/%d \t", i);
         }
-       // System.out.printf("ii: %f", nums2);
+
     }
 
 
