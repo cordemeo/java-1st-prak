@@ -1,12 +1,23 @@
 class Ror {
     public static int Factorial(int f) {
-        int result = 1;
-        for (int i = 1; i <= f; i++) {
-            result = result * i;
+        if (f < 0) {
+            System.out.println("ERROR -1");
+            return -1;
+
         }
-        return result;
+        else if (f == 0) {
+            return 1;
+        }
+        else {
+            int result = 1;
+            for (int i = 1; i <= f; i++) {
+                result = result * i;
+            }
+            return result;
+        }
     }
 }
+
 public class Program5 {
     public static void main(String args[]) {
         /*
@@ -20,7 +31,6 @@ public class Program5 {
 
     }
 }
-
 
 
 
